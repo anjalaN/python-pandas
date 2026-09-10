@@ -5,3 +5,4 @@ data = {
     "age": [25, 30, 28]
 }
 pd.DataFrame()
+print(pd.DataFrame())
