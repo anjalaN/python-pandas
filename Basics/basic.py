@@ -8,7 +8,12 @@ data = {
 df = pd.DataFrame(data)
 df["age"].mean()
 df["age"].median()
+df["age"].std()
 
 print(df)
 print(df["age"].mean())
 print(df["age"].median())
+print(df["age"].std())
+print(df["age"].var())
+print(df["age"].sample())
+print(df["age"].sample(2))
